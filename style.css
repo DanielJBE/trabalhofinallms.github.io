@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  color: #191919;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  font-family: Arial, Helvetica;
+  font-size: 20px;
+}
+h1 {
+  margin-top: 20px;
+}
+h2 {
+  margin-top: 20px;
+}
+h4 {
+  padding: 5px;
+  margin-top: 20px;
+  background-color: #191919;
+  color: #fff;
+}
+p {
+  margin: 20px;
+  text-align: justify;
+}
+.test {
+  background-color: #191919;
+}
+.cores {
+  padding-top: 20px;
+  color: #fff;
+  background-color: #191919;
+}
+.para {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 35px;
+}
+.p {
+  text-align: center;
+}
+
+/** Barra de Navegação */
+.navbar {
+  background-color: #191919;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin-top: 4px;
+  margin-left: 15px;
+  font-size: 1.5em;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/** Carrossel */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/** para a imagem ficar responsiva */
+img {
+  margin: 0px;
+  max-height: 100%;
+  min-width: 100%;
+}
+
+/** Informativo */
+/**.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}*/
+
+.intro,
+.features,
+.contact {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feature img {
+  max-width: 100%;
+  height: auto;
+}
+
+/** @Media para telas menores */
+@media only screen and (min-width: 1100px) {
+  h1 {
+    margin-left: 230px;
+    margin-right: 230px;
+  }
+
+  h2 {
+    margin-left: 230px;
+    margin-right: 230px;
+  }
+
+  h4 {
+    margin-left: 230px;
+    margin-right: 230px;
+  }
+
+  p {
+    margin-left: 230px;
+    margin-right: 230px;
+  }
+}
